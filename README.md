@@ -3,7 +3,7 @@
 A Python-based system that predicts future stock prices using historical market data and multiple forecasting techniques.  
 This project demonstrates data analysis, visualization, and prediction using machine learning models.
 
-## Project Overview:
+# Project Overview:
 The system uses historical stock price data stored in an Excel file and applies different forecasting methods such as **Average Prediction**, **Moving Average**, **Weighted Moving Average**, and **Linear Regression**.  
 The predictions are compared with actual prices through visual plots, helping users understand the strengths and weaknesses of each method.
 
@@ -17,7 +17,7 @@ The predictions are compared with actual prices through visual plots, helping us
 - Weighted Moving Average
 - Linear Regression
 
-## Technologies Used:
+# Technologies Used:
 - Python
 - NumPy, Pandas
 - Matplotlib, Seaborn
@@ -41,7 +41,7 @@ The predictions are compared with actual prices through visual plots, helping us
 
 ---
 
-## 📊 Example Outputs
+# 📊 Example Outputs
 
 ### Min Max
 ![Minimum and Maximum](screenshots/min_max.png)
