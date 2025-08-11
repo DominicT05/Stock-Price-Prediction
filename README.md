@@ -25,21 +25,16 @@ The predictions are compared with actual prices through visual plots, helping us
 - Jupyter Notebook
 
 # Project Structure:
-├── data/Stock_Price_Prediction.xlsx   - Dataset file  
 
-├── images/min_max.png                 - Output chart for Minimum & Maximum Prediction
+├── data/Stock_Price_Prediction.xlsx   - Dataset file  
 ├── images/avg_prediction.png          - Output chart for Average Prediction  
 ├── images/moving_average.png          - Output chart for Moving Average  
 ├── images/weighted_ma.png             - Output chart for Weighted Moving Average  
-├── images/linear_regression.png       - Output chart for Linear Regression 
-
+├── images/min_max.png                  - Output chart for Min-Max Normalization Prediction  
+├── images/linear_regression.png       - Output chart for Linear Regression  
 ├── stock_price_prediction.py          - Main Python script for predictions  
-
 ├── requirements.txt                   - Python dependencies  
-
 └── README.md                          - Project documentation  
-
----
 
 # 📊 Example Outputs
 
