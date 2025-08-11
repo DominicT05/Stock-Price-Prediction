@@ -39,60 +39,59 @@ Edit
 
 ## 📊 Example Outputs
 
+### Min Max
+![Minimum and Maximum](screenshots/min_max.png)
+
 ### Average Prediction
-![Average Prediction](images/avg_prediction.png)
+![Average Prediction](screenshots/avg_prediction.png)
 
 ### Moving Average
-![Moving Average](images/moving_average.png)
+![Moving Average](screenshots/moving_average.png)
 
 ### Weighted Moving Average
-![Weighted Moving Average](images/weighted_ma.png)
+![Weighted Moving Average](screenshots/weighted_ma.png)
 
 ### Linear Regression
-![Linear Regression](images/linear_regression.png)
+![Linear Regression](screenshots/linear_regression.png)
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
-2. Install Dependencies
-It’s recommended to use a virtual environment:
 
 bash
-Copy
-Edit
+git clone https://github.com/your-username/stock-price-prediction.git
+cd stock-price-prediction
+
+### 2. Install Dependencies
+
+bash
 pip install -r requirements.txt
+
 ▶️ How to Run
 Option 1 — Python Script
 
 bash
-Copy
-Edit
 python stock_price_prediction.py
+
 Option 2 — Jupyter Notebook
 
 bash
-Copy
-Edit
 jupyter notebook
-Then open and run the .ipynb file step by step.
+Then open and run the .py file step by step.
 
 📦 Requirements
 Example requirements.txt:
 
 nginx
-Copy
-Edit
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 openpyxl
+
 📌 Notes
 This project is for educational purposes only.
 
