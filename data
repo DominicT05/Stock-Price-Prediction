@@ -1,0 +1,10 @@
+import os
+import pandas as pd
+
+# Path to the file inside the 'data' folder
+file_path = os.path.join("data", "Stock_Price_Prediction.xlsx")
+
+# Load the Excel file
+data = pd.read_excel(file_path)
+
+data.head()
