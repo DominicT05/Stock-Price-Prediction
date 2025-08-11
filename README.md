@@ -12,10 +12,6 @@ The predictions are compared with actual prices through visual plots, helping us
 - Implement multiple prediction algorithms
 - Generate visual performance comparisons
 - Flexible code structure for adding new models
-- Average Prediction
-- Moving Average
-- Weighted Moving Average
-- Linear Regression
 
 # Technologies Used:
 - Python
