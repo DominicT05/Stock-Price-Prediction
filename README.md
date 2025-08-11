@@ -1,39 +1,43 @@
-# 📈 Stock Price Prediction Model
+# Stock Price Prediction Model
 
-This project predicts stock prices using Python, Machine Learning, and Jupyter Notebook.  
-It uses historical stock market data and demonstrates multiple forecasting techniques such as:
+A Python-based system that predicts future stock prices using historical market data and multiple forecasting techniques.  
+This project demonstrates data analysis, visualization, and prediction using machine learning models.
+
+## Project Overview:
+The system uses historical stock price data stored in an Excel file and applies different forecasting methods such as **Average Prediction**, **Moving Average**, **Weighted Moving Average**, and **Linear Regression**.  
+The predictions are compared with actual prices through visual plots, helping users understand the strengths and weaknesses of each method.
+
+# Key highlights:
+- Load and preprocess financial data
+- Implement multiple prediction algorithms
+- Generate visual performance comparisons
+- Flexible code structure for adding new models
 - Average Prediction
 - Moving Average
 - Weighted Moving Average
 - Linear Regression
 
-## 🛠️ Technologies Used
+## Technologies Used:
 - Python
 - NumPy, Pandas
 - Matplotlib, Seaborn
 - Scikit-learn
 - Jupyter Notebook
 
-## 📂 Project Structure
+# Project Structure:
+├── data/Stock_Price_Prediction.xlsx   - Dataset file  
 
-stock-price-prediction/
-│
-├── data/
-│ └── Stock_Price_Prediction.xlsx # Dataset file
-│
-├── images/ # Output screenshots
-│ ├── avg_prediction.png
-│ ├── moving_average.png
-│ ├── weighted_ma.png
-│ └── linear_regression.png
-│
-├── stock_price_prediction.py # Main script
-├── README.md # Documentation
-└── requirements.txt # Python dependencies
+├── images/min_max.png                 - Output chart for Minimum & Maximum Prediction
+├── images/avg_prediction.png          - Output chart for Average Prediction  
+├── images/moving_average.png          - Output chart for Moving Average  
+├── images/weighted_ma.png             - Output chart for Weighted Moving Average  
+├── images/linear_regression.png       - Output chart for Linear Regression 
 
-yaml
-Copy
-Edit
+├── stock_price_prediction.py          - Main Python script for predictions  
+
+├── requirements.txt                   - Python dependencies  
+
+└── README.md                          - Project documentation  
 
 ---
 
@@ -54,45 +58,7 @@ Edit
 ### Linear Regression
 ![Linear Regression](screenshots/linear_regression.png)
 
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-
-bash
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
-
-### 2. Install Dependencies
-
-bash
-pip install -r requirements.txt
-
-▶️ How to Run
-Option 1 — Python Script
-
-bash
-python stock_price_prediction.py
-
-Option 2 — Jupyter Notebook
-
-bash
-jupyter notebook
-Then open and run the .py file step by step.
-
-📦 Requirements
-Example requirements.txt:
-
-nginx
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-openpyxl
-
-📌 Notes
+# Notes
 This project is for educational purposes only.
 
 Do not use for actual financial trading.
