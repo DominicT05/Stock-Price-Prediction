@@ -49,7 +49,7 @@ Edit
 ![Moving Average](screenshots/moving_average.png)
 
 ### Weighted Moving Average
-![Weighted Moving Average](screenshots/weighted_ma.png)
+![Weighted Moving Average](screenshots/weighted_moving_avg.png)
 
 ### Linear Regression
 ![Linear Regression](screenshots/linear_regression.png)
