@@ -7,7 +7,6 @@ __pycache__/
 
 # Ignore data backups
 *.csv
-*.xlsx
 
 # Ignore virtual environments
 venv/
